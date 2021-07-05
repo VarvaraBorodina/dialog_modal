@@ -1,0 +1,141 @@
+body {
+    background-color: #FF8577;
+    background-image: url(../images/blue_circle.png), url(../images/yellow_circle.png);
+    background-repeat: no-repeat;
+    background-position: right bottom, left top;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+button {
+    font-family: inherit;
+}
+
+.wrapper {
+    width: 1080px;
+    height: 100vh;
+    margin: 0 auto;
+    font-family: IBM Plex Sans;
+}
+
+.overlay {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.top {
+    width: 457px;
+    height: 40px;
+    align-self: flex-end;
+    margin-top: 88px;
+    margin-right: 43px ;
+}
+
+.top__text {
+    font-weight: normal;
+    color: #fff;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.dialog {
+    align-self: center;
+    width: 699px;
+    height: 305px;
+    margin-top: 52px;
+    background-color: #fff;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.12);
+    border-radius: 16px;
+}
+
+.dialog__header {
+    margin-top: 40px;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.dialog__text {
+    width: 476px;
+    height: 48px;
+    margin-top: 44px;
+    margin-left: 40px;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.dialog__text--active {
+    color: #f22b25;
+    font-weight: bold;
+}
+
+.dialog__container-buttons {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.dialog__btn {
+    height: 56px;
+    padding: 16px 58px;
+    line-height: 24px;
+    size: 16px;
+    font-weight: bold;
+    background-color: #fff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.dialog__btn--active {
+    width: 242px;
+    background-color: #000000;
+    color: #fff;
+}
+
+.bottom {
+    align-items: flex-start;
+    display: flex;
+    margin-top: 100px;
+    padding-left: 24px;
+}
+
+.bottom__button {
+    padding: 16px 58px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    background-color: #FF8577;
+    border-color: #fff;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.bottom__image {
+    align-self: center;
+    margin-left: 19px;
+    width: 74px;
+    height: 9 px;
+}
+
+.bottom__text {
+    align-self: center;
+    margin-left: 13px;
+    height: 24px;
+    width: 81px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+}
